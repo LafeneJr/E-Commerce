@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  background-color: beige;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for overlays */
+.sidebar-transition {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Prevent body scroll when overlay is open */
+.no-scroll {
+  overflow: hidden;
+}
