@@ -94,6 +94,7 @@ export const ProductItem = () => {
         
         // Show feedback
         const message = isInWishlist ? "Removed from wishlist" : "Added to wishlist"
+        console.log(message)
         // You could show a toast notification here
     }
 

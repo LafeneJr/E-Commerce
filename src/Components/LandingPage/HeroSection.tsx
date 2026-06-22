@@ -265,7 +265,6 @@ export const HeroSection = () => {
           >
             {/* Grid Item 1 */}
             <motion.div 
-              variants={itemVariants}
               className="relative h-64 rounded-3xl overflow-hidden group bg-gradient-to-br from-gray-900 to-black"
               whileHover="hover"
               initial="hidden"
@@ -323,7 +322,6 @@ export const HeroSection = () => {
 
             {/* Grid Item 2 */}
             <motion.div 
-              variants={itemVariants}
               className="relative h-64 rounded-3xl overflow-hidden group"
               whileHover="hover"
               initial="hidden"
@@ -388,7 +386,6 @@ export const HeroSection = () => {
 
             {/* Grid Item 3 */}
             <motion.div 
-              variants={itemVariants}
               className="relative h-64 rounded-3xl overflow-hidden group bg-gradient-to-br from-stone-800 to-stone-900"
               whileHover="hover"
               initial="hidden"
